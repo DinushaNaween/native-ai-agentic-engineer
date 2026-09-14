@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "vimMode": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes/concepts"
+}
