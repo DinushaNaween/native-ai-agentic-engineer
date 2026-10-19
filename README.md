@@ -8,7 +8,7 @@
 
 | Phase | Topic | Status | Started | Completed |
 |-------|-------|--------|---------|-----------|
-| 0 | ML & AI Foundations | 🔲 Not Started | — | — |
+| 0 | ML & AI Foundations | 🔄 In Progress | Oct 19, 2026 | — |
 | 1 | LLMs & Prompt Engineering | 🔲 Not Started | — | — |
 | 2 | RAG Systems | 🔲 Not Started | — | — |
 | 3 | Agentic AI | 🔲 Not Started | — | — |

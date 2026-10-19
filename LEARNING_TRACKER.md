@@ -1,8 +1,8 @@
 # 📊 Learning Tracker
 
-> **Started**: September 14, 2026  
+> **Started**: October 19, 2026  
 > **Current Phase**: Phase 0 — ML & AI Foundations  
-> **Last Updated**: September 14, 2026
+> **Last Updated**: October 19, 2026
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |--------|-------|
-| 📅 Days Studied | 0 |
-| ⏱️ Total Hours | 0 |
+| 📅 Days Studied | 1 |
+| ⏱️ Total Hours | 1.5 |
 | 📝 Articles Published | 0 |
 | 🏗️ Projects Built | 0 |
-| 📚 Concepts Noted | 0 |
+| 📚 Concepts Noted | 2 |
 | ⭐ GitHub Stars | 0 |
 
 ---
@@ -22,9 +22,9 @@
 ## ✅ Phase Completion Tracker
 
 ### Phase 0 — ML & AI Foundations
-- [ ] Linear Algebra for ML (vectors, matrices, dot products)
+- [x] Linear Algebra for ML (vectors, matrices, dot products)
 - [ ] Statistics & Probability basics
-- [ ] Python for AI (NumPy, Pandas, Matplotlib)
+- [x] Python for AI (NumPy, Pandas, Matplotlib)
 - [ ] Machine Learning fundamentals
 - [ ] Neural Networks 101
 - [ ] Transformers architecture (Attention mechanism)
@@ -103,27 +103,30 @@
 
 ## 📅 Weekly Log
 
-### Week 1 — Sep 14, 2026
-
+### Week 1 — Oct 19, 2026
+ 
 | Day | Topics Studied | Hours | Notes |
 |-----|---------------|-------|-------|
-| Mon | | | |
+| Mon | Linear algebra scratch ops, vectors, embeddings, NumPy SIMD benchmarks | 1.5h | Implemented dot product, norm, cosine similarity, matrix mult, and mini vector store. |
 | Tue | | | |
 | Wed | | | |
 | Thu | | | |
 | Fri | | | |
 | Sat | | | |
 | Sun | | | |
-| **Total** | | **0h** | |
+| **Total** | | **1.5h** | |
 
 **Week 1 Wins** 🏆:
-- _Add your wins here_
+- Set up isolated Python 3.13 foundations environment with NumPy, Matplotlib, Pandas, Pytest.
+- Built and tested pure Python linear algebra operations and verified against NumPy.
+- Demonstrated 1395x matrix multiplication speedup using BLAS/SIMD vectorization.
+- Generated vector space geometry and semantic clustering visualization.
 
 **Week 1 Challenges** 😤:
-- _Add challenges here_
+- Understanding inner dimension alignments for matrix multiplication ($M \times K$ with $K \times N$).
 
 **Next Week Focus**:
-- _Add focus areas_
+- Neural Networks 101, Activation functions (ReLU, Sigmoid), and Backpropagation from scratch in NumPy.
 
 ---
 
@@ -137,7 +140,7 @@
 
 | Date | Insight | Topic |
 |------|---------|-------|
-| — | — | — |
+| Oct 19, 2026 | Pure Python nested loops take O(M*K*N) on the CPU interpreter. NumPy delegates to underlying BLAS/LAPACK routines utilizing CPU SIMD registers, yielding a >1000x speedup. Embeddings are directional vectors where dot product and cosine similarity quantify semantic meaning. | Linear Algebra & Embeddings |
 
 ---
 

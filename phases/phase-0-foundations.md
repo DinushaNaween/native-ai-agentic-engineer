@@ -1,6 +1,6 @@
 # Phase 0 — ML & AI Foundations
-**Duration**: Weeks 1–4 (Sep 14 – Oct 11, 2026)  
-**Status**: 🔲 Not Started
+**Started**: Oct 19, 2026  
+**Status**: 🔄 In Progress
 
 > Build the mathematical and conceptual bedrock before touching agents.
 
@@ -64,7 +64,7 @@
 
 ## 🏗️ Hands-On Exercises
 
-- [ ] Implement matrix multiplication from scratch in Python
+- [x] Implement matrix multiplication from scratch in Python
 - [ ] Build a neural network using only NumPy (no frameworks)
 - [ ] Train a simple classifier on MNIST
 - [ ] Implement basic backpropagation
